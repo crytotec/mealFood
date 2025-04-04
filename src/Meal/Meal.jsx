@@ -10,7 +10,7 @@ function Meal({ meal, setMeal }) {
     setMeal(dele);
   };
 
-  // Function to generate and download PDF
+
   const downloadPDF = () => {
     const doc = new jsPDF();
 
