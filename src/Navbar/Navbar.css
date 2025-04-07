@@ -1,3 +1,4 @@
+
 ul{
     background-color: rgb(221, 87, 87);
     display: flex;
@@ -24,13 +25,14 @@ ul{
 }
 
 .list{display:inline-block;
-     position: fixed;
-     z-index: 10;
+     position: absolute;
+     z-index: 10; 
+     overflow-y: hidden;
      top: 80px;
      height: 100vh;
     list-style-type: none;
     justify-content: end;
-    width: 100%;
+    width: 40%;
      background-color: rgb(221, 87, 87);
      animation: 0.2s sliding-in;
 }

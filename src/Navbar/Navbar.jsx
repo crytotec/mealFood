@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import './Navbar.css'
 import { FaBars, FaTimes } from "react-icons/fa"
-import { useState } from "react"
+import { useState,useEffect } from "react"
 
 
 
@@ -14,8 +14,16 @@ const [menu, setMenu]=useState(false);
  const OnclickMenu= () =>{
     setMenu(false)
  }
+
+ useEffect(()=>{
+   if(menu){
+    document.body.style.overflow='hidden'
+   }else{
+    document.body.style.overflow='scroll'
+   }
+ },[menu])
 return(
-    <div>
+    <div className="setbody">
         <ul>
             <div className="logo">
                 Crytotec

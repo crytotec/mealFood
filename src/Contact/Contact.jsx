@@ -4,9 +4,9 @@ import './contact.css'
 
 function Contact(){
    return(
-    <div>
-        <div>
-                <form className='form'>
+    <div className="body">
+        <div className="bodyset">
+                <form className='Form'>
                     <div className='formset'>
                         <label htmlFor='name'>Name:</label>
                         <input type='text' id='name' placeholder='Input your name' />

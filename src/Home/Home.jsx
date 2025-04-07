@@ -9,7 +9,7 @@ import './Home.css'
 import { useState } from 'react'
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa'
 import {details, winterFood, dietaryFood}  from '../Items'
-
+import { Link } from "react-router-dom"
 function Home(){
 
    const [slide, setSlide]=useState(0);
@@ -37,7 +37,7 @@ function Home(){
       <h1>Plan Your Meals, Simplify Your Life</h1>
                     <p>Get started with our easy-to-use meal planning tool</p>
                     <button>
-                        <a href=''>Start planning</a>
+                        <Link className='text' to='./plans'>Start planning </Link>
                     </button>      </div>
       </div>
 
@@ -51,7 +51,7 @@ function Home(){
             <img src={total.img}/>
          </div>)
        }
-       <div className='icon'>
+       <div className='ico'>
          <FaArrowAltCircleLeft className='iconset' onClick={prevSlide}/>
          <FaArrowAltCircleRight className='iconset' onClick={nextslide}/>
        </div>

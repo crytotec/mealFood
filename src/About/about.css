@@ -1,11 +1,23 @@
-.about{
+.body{
     display: flex;
+    flex-direction: column;
+}
+.about{
     flex-wrap: wrap;
+    margin: 15vh auto;
     flex-direction: row;
     width: 100%;
     margin-bottom: 50px;
 }
+.header{
+    font-size: xx-large;
+}
+.span{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .aboutorg{
+    
     margin-bottom: 10px;
     margin: auto;
     text-align: center;
@@ -14,7 +26,7 @@
     width: 50%;
     color: #ffffff;
     margin: auto;
-    padding: 10px;
+    padding: 40px;
     border-radius: 2%;
     text-align: center;
     background-color: rgb(212, 64, 64);

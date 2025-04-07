@@ -1,6 +1,6 @@
-import BreadandAkara from './Images/yoruba/Bread and Akara.jpeg'
-import ohasoup from './Images/igbo/oha soup.jpeg'
-import Egusiandiyan from './Images/yoruba/Egusi and iyan.jpeg'
+import BreadandAkara from './Images/Bread and Akara.jpeg'
+import ohasoup from './Images/oha soup.jpeg'
+import Egusiandiyan from './Images/Egusi and iyan.jpeg'
 
 export const details=[
     {id:1, text:'Whole grains are a great source of fiber and essential nutrients. Foods like brown rice, quinoa, whole wheat bread, and oats are excellent choices.They help with digestion, keep you feeling full longer, and provide sustained energy.'},

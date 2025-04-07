@@ -1,8 +1,23 @@
+.search{
+    margin-top: 15vh;
+    transform: translateX(20%);
+      height: 10vh;
+      width: 80%;
+      background-color: rgb(221, 87, 87);;
+}
+
+.form{
+    display: flex;
+    flex:row;
+    width: 50%;
+    justify-content: space-between;
+    height: 20vh;
+}
 .plans{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     width: 100%;
-    margin:50px auto;
+    margin:2px auto;
     gap:40px;
     padding: 20px;
 
@@ -40,4 +55,36 @@ p{
 }
 .btn{
    color: white;
+}
+
+@media (max-width:768px) {
+    .plans{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        width: 100%;
+        gap:20px;
+        padding: 10px;
+    }
+    .planset{
+        display: flex;
+        width: 70%;
+        height: 150px;
+        padding: 20px;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .ima{
+        width: 90%;
+        height: 100px;   
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .btn{
+        color: white;
+        width: 100%;
+     }
+    
 }
