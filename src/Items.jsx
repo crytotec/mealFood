@@ -1,5 +1,5 @@
 import BreadandAkara from './Images/Bread and Akara.jpeg'
-import ohasoup from './Images/oha soup.jpeg'
+import ohasoup from './Images/Oha soup.jpeg'
 import Egusiandiyan from './Images/Egusi and iyan.jpeg'
 
 export const details=[
